@@ -59,6 +59,8 @@
                                     Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
                                 </div>
                                 <a href="{{route('hello.index')}}">Hello1</a>
+                                <a href="{{route('hello.index',['name'=>'tom'])}}">Hello2</a>
+                                <a href="/hello/tom">Hello3</a>
                             </div>
                         </div>
 
