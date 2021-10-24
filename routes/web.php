@@ -25,6 +25,10 @@ Route::get('r2', function () {
     return view('welcome');
 });
 
+Route::get('hello/{name?}',function($name='Everybody'){
+    return 'Hello,'.$name;
+})->name('hello.index');
+
 /*
 Route::get('/', function () {
     return view('welcome');
